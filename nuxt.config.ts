@@ -8,4 +8,7 @@ export default defineNuxtConfig({
     "@nuxtjs/seo",
     "@zadigetvoltaire/nuxt-gtm",
   ],
+  gtm: {
+    id: "GTM-XXXXXX",
+  },
 });
